@@ -15,7 +15,10 @@ int main() {
 
 
 
-    printf("%s",name);
-    printf("%d",quantity);
-    printf("%f",price);
+    printf("%s \n",name);
+    printf("%d \n",quantity);
+    printf("%f \n",price);
+    if(quantity<0 || price < 0){
+        printf("le price ou la quantity et negatif");
+    }
 }
